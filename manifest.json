@@ -1,0 +1,18 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Flameshot",
+  "description": "Screenshot using Flameshot",
+  "developer_name": "Tomás Vilariño",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.05
+  },
+  "preferences": [
+    {
+      "id": "flameshot_fs",
+      "type": "keyword",
+      "name": "Flamshot",
+      "default_value": "fs"
+    }
+  ]
+}
